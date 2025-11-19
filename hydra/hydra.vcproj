@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="hydra"
-	ProjectGUID="{ECC4CF60-B201-45F5-84ED-89DA7D2373E5}"
+	ProjectGUID="{839C8F8D-5C77-4F24-9585-919FDE1E22FD}"
 	RootNamespace="hydra"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -176,6 +176,10 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="资源文件"
@@ -186,11 +190,19 @@
 				RelativePath=".\hydra.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\hydra.ico"
+				>
+			</File>
+			<File
+				RelativePath=".\hydra.rc"
+				>
+			</File>
+			<File
+				RelativePath=".\icon1.ico"
+				>
+			</File>
 		</Filter>
-		<File
-			RelativePath=".\app.manifest"
-			>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>
